@@ -1,0 +1,201 @@
+/* ===== RESPONSIVE FIXES FOR SEBLAKDIKZZ ===== */
+/* Hanya memperbaiki responsiveness, tidak mengubah tema/warna */
+
+/* 1. FIX HORIZONTAL SCROLLING GLOBAL */
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    position: relative !important;
+}
+
+* {
+    box-sizing: border-box !important;
+}
+
+/* 2. FIX NAVBAR SPACING */
+.navbar {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    
+    .navbar-brand {
+        margin-left: 0 !important;
+        font-size: 1.1rem !important;
+    }
+    
+    .navbar-toggler {
+        margin-right: 0 !important;
+        padding: 4px 8px !important;
+    }
+    
+    .navbar-nav {
+        padding: 10px 0 !important;
+        text-align: center !important;
+    }
+    
+    .nav-item {
+        margin: 5px 0 !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
+/* 3. FIX CONTACT FORM RESPONSIVE */
+.contact-form {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 15px !important;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.form-container {
+    width: 100% !important;
+    max-width: 500px !important;
+    margin: 0 auto !important;
+    padding: 0 15px !important;
+}
+
+@media (max-width: 576px) {
+    .contact-form {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    
+    .form-container {
+        padding: 0 10px !important;
+    }
+    
+    .form-control {
+        font-size: 14px !important;
+        padding: 8px 12px !important;
+    }
+}
+
+/* 4. FIX TENTANG PAGE RESPONSIVE */
+.about-content,
+.about-section,
+.profile-section {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    padding: 0 15px !important;
+}
+
+.about-text {
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-content {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
+/* 5. FIX GENERAL CONTAINERS */
+.container,
+.container-fluid {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+@media (max-width: 576px) {
+    .container,
+    .container-fluid {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
+/* 6. FIX IMAGES RESPONSIVE */
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+/* 7. FIX BUTTONS MOBILE */
+@media (max-width: 576px) {
+    .btn {
+        width: 100% !important;
+        margin: 5px 0 !important;
+        display: block !important;
+    }
+    
+    .btn-group .btn {
+        width: auto !important;
+        display: inline-block !important;
+    }
+}
+
+/* 8. FIX CARDS AND BOXES */
+.card,
+.panel,
+.content-box,
+.section-box {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* 9. FIX TABLES RESPONSIVE */
+table {
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    display: block !important;
+}
+
+/* 10. FIX FONT SIZES MOBILE */
+@media (max-width: 576px) {
+    body {
+        font-size: 14px !important;
+    }
+    
+    h1 {
+        font-size: 1.8rem !important;
+    }
+    
+    h2 {
+        font-size: 1.5rem !important;
+    }
+    
+    h3 {
+        font-size: 1.3rem !important;
+    }
+}
+
+/* 11. FIX MARGINS/PADDING MOBILE */
+@media (max-width: 768px) {
+    .py-5, .py-4, .py-3 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+    
+    .my-5, .my-4, .my-3 {
+        margin-top: 1.5rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+}
